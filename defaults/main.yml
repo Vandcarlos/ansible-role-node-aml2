@@ -2,7 +2,7 @@
 node_versions:
   - --lts
 
-node_alias_default: lts/*
+node_alias_default: False
 
 install_gulp: True
 gulp_version: latest
