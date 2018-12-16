@@ -1,0 +1,5 @@
+---
+- include_tasks: node.yml
+  vars:
+    node_version: "{{ item }}"
+  loop: "{{ node_versions }}"

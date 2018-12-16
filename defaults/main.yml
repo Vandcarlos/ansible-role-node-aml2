@@ -1,0 +1,11 @@
+---
+node_versions:
+  - --lts
+
+node_alias_default: lts/*
+
+install_gulp: True
+gulp_version: latest
+
+install_bower: True
+bower_version: latest

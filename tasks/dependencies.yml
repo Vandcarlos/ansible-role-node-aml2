@@ -1,0 +1,10 @@
+---
+- name: Install node dependencies
+  yum:
+    name:
+      - libpng
+      - libpng-devel
+      - libpng12
+      - libpng12-devel
+    state: latest
+  become: yes
