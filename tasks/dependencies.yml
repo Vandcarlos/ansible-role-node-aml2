@@ -6,5 +6,8 @@
       - libpng-devel
       - libpng12
       - libpng12-devel
+      - gcc-c++
+      - make
+      - kernel-devel
     state: latest
   become: yes
