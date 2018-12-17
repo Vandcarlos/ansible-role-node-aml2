@@ -3,12 +3,12 @@
   npm:
     name: gulp
     version: "{{ gulp_version }}"
-  global: yes
+    global: yes
   when: install_gulp
 
 - name: Install bower
   npm:
     name: bower
     version: "{{ bower_version }}"
-  global: yes
+    global: yes
   when: install_bower
