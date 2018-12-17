@@ -12,3 +12,9 @@
     version: "{{ bower_version }}"
     global: yes
   when: install_bower
+
+- name: Install bower
+  npm:
+    name: pngquant-bin
+    version: latest
+    global: yes
